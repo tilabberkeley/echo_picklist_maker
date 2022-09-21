@@ -19,6 +19,8 @@ picklist_maker = PickListMaker(["~/Downloads/example_plates1.csv", "~/Downloads/
 picklist_maker.picklist_df
 ```
 
+![alt text](https://github.com/tilabberkeley/echo_picklist_maker/blob/master/sample_picklist.png?raw=true)
+
 ### Export to CSV
 
 Run `picklist_maker.picklist_df.to_csv("__your_file_path__")` to export the picklist to a csv file.

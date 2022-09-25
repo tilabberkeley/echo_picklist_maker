@@ -21,6 +21,9 @@ picklist_maker.picklist_df
 
 ![alt text](https://github.com/tilabberkeley/echo_picklist_maker/blob/master/sample_picklist.png?raw=true)
 
-### Export to CSV
+### Export to CSV and Excel
 
-Run `picklist_maker.picklist_df.to_csv("__your_file_path__")` to export the picklist to a csv file.
+Run `picklist.save_to_csv("__your_file_path__")` to export the picklist to a csv file.
+
+Run `picklist.save_to_excel("__your_file_path__")` to export the picklist to a xlsx file.
+
